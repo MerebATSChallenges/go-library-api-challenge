@@ -1,4 +1,4 @@
-# node-library-api
+# go-library-api
 
 ## Implement Simple CRUD API for Library Management
 
@@ -6,7 +6,7 @@ Your task is to implement a simple CRUD API using an in-memory database undernea
 
 ## Details:
 
-1.  The task must be solved using only **express** and provided packages in **package.json**. Any libraries and packages **are prohibited**.
+1.  The task must be solved using only **net/http** and provided modules in **go.mod**. Any libraries and packages **are prohibited**.
 2.  API path `/books`:
 
     - **GET** `/books` - returns a list of all books. there should be a possibility to filter books by `author` , `title` , and `genre ` query parameters and sort by `year ` query parameters. If no query parameters are provided, all books should be returned.
